@@ -1,7 +1,7 @@
-#### Financial Sentiment Analysis with LangChain and OpenAI API
+## Financial Sentiment Analysis with LangChain and OpenAI API
 This project is designed to perform financial sentiment analysis on news headlines using LangChain with OpenAI's API. It explores various key concepts, including prompt templates, language model (LLM) chains, agents and tools, and techniques like few-shot learning and moderation.
 
-#### Key Learning Points
+### Key Learning Points
 1. Completion Model
 
 * A completion model generates a response based on a given prompt, designed to "complete" a task or input by producing a relevant output. It’s crucial for natural language generation tasks.
@@ -37,13 +37,15 @@ Additional Configurations:
 * `verbose=True`: Enables visibility of the agent’s actions, aiding debugging and transparency.
 
 6. Few-Shot Learning
-Purpose: To improve model accuracy on specific, nuanced tasks by providing examples that help guide the model’s responses.
+
+* Purpose: To improve model accuracy on specific, nuanced tasks by providing examples that help guide the model’s responses.
 * How It Works: A few example input-output pairs (1-5) are embedded within the prompt, helping the model generalize from these examples for new inputs. Alternatively, providing clear guidelines can tailor model behavior.
 
 7. OpenAI Moderation - Predicting Offensive Content
-The moderation feature evaluates and flags inappropriate or harmful content. The OpenAI Moderation API reviews the input text and returns feedback on whether it meets safety standards, ensuring that content aligns with acceptable use policies.
 
-#### Usage Instructions
+* The moderation feature evaluates and flags inappropriate or harmful content. The OpenAI Moderation API reviews the input text and returns feedback on whether it meets safety standards, ensuring that content aligns with acceptable use policies.
+
+### Usage Instructions
 1. Installation:
 
 * Download the repo onto your local device and use your favourite IDE in assessing the codebase. 
@@ -55,8 +57,6 @@ OPENAI_API_KEY = "YOUR OPEN AI API KEY"
 
 2. Run the `notebook.ipynb` file. 
 
-#### Conclusion
+### Conclusion
 
 This project demonstrates a structured, modular approach to financial sentiment analysis using LangChain and OpenAI. Key techniques like prompt templates, LLM chains, agents, few-shot learning, and moderation enhance the model's ability to process and analyze financial data dynamically.
-
-
